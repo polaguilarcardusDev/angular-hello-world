@@ -1,0 +1,10 @@
+/* Estilos para el contenedor principal de la aplicación */
+.app-container {
+    border: 2px solid #000; /* Define el borde del marco */
+    border-radius: 10px; /* Redondea las esquinas del marco */
+    padding: 20px; /* Espacio interior para que el contenido no esté pegado al borde */
+    margin: 20px auto; /* Centra el contenedor y añade margen alrededor */
+    width: 80%; /* Controla el ancho del marco */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Añade una sombra para un efecto más visual */
+  }
+  

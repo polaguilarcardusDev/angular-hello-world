@@ -1,0 +1,20 @@
+/* Estilos para el contenedor principal */
+.hello-container {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  /* Estilos para el botón */
+  .lorem-button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* Añadido para cambiar el cursor al pasar sobre el botón */
+  }
+  
+  .lorem-button:hover {
+    background-color: darkblue; /* Cambia el color del fondo al pasar el ratón */
+  }
+  
