@@ -1,27 +1,37 @@
-# HelloWorldAngular
+# 📦 Angular 15 Project: Simple Navigation with Routing
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.11.
+## 📝 Descripción
 
-## Development server
+Este proyecto es una aplicación básica creada con Angular 15. La aplicación permite la navegación entre dos componentes: una página principal con un mensaje de "Hello World" y un botón que redirige a otro componente que muestra "Lorem Ipsum". El propósito de este proyecto es demostrar el uso básico de Angular Router para la navegación en una aplicación de una sola página (SPA).
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🌐 Rutas Finales
 
-## Code scaffolding
+- **/**: Muestra la página principal con el mensaje "Hello World" y un botón para navegar a la página "Lorem Ipsum".
+- **/lorem**: Muestra la página "Lorem Ipsum".
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🛠️ Tecnologías Utilizadas
 
-## Build
+- **Angular 15**: Framework para el desarrollo de aplicaciones web.
+- **TypeScript**: Lenguaje utilizado para escribir la lógica de la aplicación.
+- **HTML & CSS**: Para la estructura y el estilo de los componentes.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 📂 Estructura del Proyecto
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```plaintext
+src/
+├── app/
+│   ├── hello-world/
+│   │   ├── hello-world.component.ts
+│   │   ├── hello-world.component.html
+│   │   └── hello-world.component.css
+│   ├── lorem/
+│   │   ├── lorem.component.ts
+│   │   ├── lorem.component.html
+│   │   └── lorem.component.css
+│   ├── app.component.ts
+│   ├── app.component.html
+│   ├── app.component.css
+│   └── app-routing.module.ts
+├── index.html
+└── styles.css
+```
